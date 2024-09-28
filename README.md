@@ -16,3 +16,5 @@ Hash 2: Brute Force Attack with SHA-256
 
 Hash 3: Mitigation Against Brute Force Attack
 • A solution was implemented to reduce the possibility of success in a brute force attack on the program developed in Hash 1. The solution may include adding salt, limiting login attempts, or using more robust algorithms.
+
+*This program was made for the Information Security course in the third semester of Information Systems.*
