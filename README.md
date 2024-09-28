@@ -1,18 +1,18 @@
 # Hash
 
-Este repositório contém a implementação de uma aplicação de autenticação e cadastro de usuários utilizando o algoritmo de hash SHA-256, bem como o desenvolvimento de um ataque de força bruta para quebrar senhas e a implementação de uma solução para mitigar esse tipo de ataque.
+This repository contains the implementation of a user authentication and registration application using the SHA-256 hash algorithm, as well as the development of a brute force attack to crack passwords and the implementation of a solution to mitigate this type of attack.
 
-Hash 1: Cadastro e Autenticação de Usuários
-•	A aplicação permite cadastrar e autenticar usuários.
-•	Cada usuário possui os seguintes atributos:
-  o	Nome: string de 4 caracteres.
-  o	Senha: string de 4 caracteres.
-•	As informações dos usuários cadastrados são armazenadas em um arquivo no formato .txt, .csv, .json ou .xml.
-•	O algoritmo SHA-256 é utilizado para realizar a hash das senhas antes de serem armazenadas.
+Hash 1: User Registration and Authentication
+• The application allows user registration and authentication.
+• Each user has the following attributes:
 
-Hash 2: Ataque de Força Bruta com SHA-256
-•	O programa processa o arquivo com as senhas armazenadas e tenta quebrar a hash das senhas utilizando um algoritmo de força bruta.
-•	O tempo total e o tempo médio por senha são calculados durante o ataque a 4 usuários.
+Name: 4-character string.
+Password: 4-character string.
+• The registered user information is stored in a file in .txt, .csv, .json, or .xml format.
+• The SHA-256 algorithm is used to hash the passwords before storing them.
+Hash 2: Brute Force Attack with SHA-256
+• The program processes the file containing the stored passwords and attempts to crack the password hashes using a brute force algorithm.
+• The total time and the average time per password are calculated during the attack on 4 users.
 
-Hash 3: Mitigação contra Ataque de Força Bruta
-•	Foi implementada uma solução para reduzir a possibilidade de sucesso de um ataque de força bruta no programa desenvolvido no Hash 1. A solução pode incluir a adição de salt, limitação de tentativas de login, ou uso de algoritmos mais robustos.
+Hash 3: Mitigation Against Brute Force Attack
+• A solution was implemented to reduce the possibility of success in a brute force attack on the program developed in Hash 1. The solution may include adding salt, limiting login attempts, or using more robust algorithms.
